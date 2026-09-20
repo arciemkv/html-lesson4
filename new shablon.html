@@ -1,42 +1,85 @@
-﻿<HTML>
-<HEAD>
-<TITLE>Удивительная планета</TITLE>
-</HEAD>
-<BODY>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Удивительная планета — Starter Kit (Семантика)</title>
+</head>
+<body bgcolor="#f4f4f4" text="#333333">
 
-<!--Верх -->
-<table width="800" border="0" frame="void" rules="none" align="center">
-    <tr> <td background="Images/title.jpg" height="220">
-</table>
+    <!-- Шапка сайта -->
+    <header>
+        <table width="100%" bgcolor="#2b8111" cellpadding="15" cellspacing="0" border="0">
+            <tr>
+                <td>
+                    <h1><font color="#ffffff">Удивительная планета</font></h1>
+                    <p><font color="#e0e0e0">Справочник уникальных рекордов Земли</font></p>
+                </td>
+            </tr>
+        </table>
+    </header>
 
-<!--Меню -->
-<table width="800" border="0" rules="none" align="center" cellpadding="5">
-    <tr bgcolor="#B8DB7C"> 
-        <td width="20">
-        <td><a href="index.html">Главная</a>
-         
-        <td width="20">
-</table>
+    <!-- Сквозное навигационное меню команды -->
+    <nav>
+        <table width="100%" bgcolor="#18191c" cellpadding="10" cellspacing="0" border="0">
+            <tr>
+                <td>
+                    <!-- ВАЖНО: Внутри командной папки ссылки будут работать локально -->
+                    <a href="index.html"><font color="#ffffff"><b>Главная</b></font></a> &nbsp;|&nbsp;
+                    <a href="geography.html"><font color="#ffffff"><b>География</b></font></a> &nbsp;|&nbsp;
+                    <a href="animals.html"><font color="#ffffff"><b>Животные</b></font></a> &nbsp;|&nbsp;
+                    <a href="plants.html"><font color="#ffffff"><b>Растения</b></font></a> &nbsp;|&nbsp;
+                    <a href="sources.html"><font color="#ffffff"><b>Источники</b></font></a>
+                </td>
+            </tr>
+        </table>
+    </nav>
 
-<!--Страница -->
-<table width="800" frame="void" border="0" rules="none" align="center" cellpadding="10">
-    <tr bgcolor="#B8DB7C" height="100%" valign="top">
-        <td width="20" >
-        <td bgcolor="#ADC2D1" width="100 ">
-        <p><a href="geo.html"><img src="Images/mountain.jpg" width="100" ></a>
-        
-        <td bgcolor="#FFFFFF" >
-        <h2 align="center">Заголовок</h2>
-        <p align="justify">Основной текст
-        <td width="20">
-</table>
+    <!-- Основной контент страницы -->
+    <main>
+        <table width="100%" cellpadding="20" cellspacing="0" border="0">
+            <tr>
+                <td>
+                    <!-- Место для локального якорного меню (Уровень PRO) -->
+                    
+                    <h2>Добро пожаловать!</h2>
+                    <p>Этот многостраничный сайт спроектирован микро-командой в рамках лабораторной работы №4.</p>
+                    
+                    <hr color="#2b8111" size="2">
 
-<!--Подвал -->
-<table width="800" border="0" rules="none" align="center" cellpadding="5">
-    <tr bgcolor="#B8DB7C" height="30"> 
-        <td align="center"> &copy; Все права защищены. И.И. Иванов, 2020 
-        <br> <A href="mailto:  @mail.ru">Написать Администратору сайта</a> 
-</table>
+                    <!-- МЕСТО ДЛЯ ВСТАВКИ ТАБЛИЦ ИЗ PLANETA_TEXT.DOC -->
+                    <!-- Пример оформления таблицы на чистом HTML:
+                    <table border="1" cellpadding="8" cellspacing="0" width="100%">
+                        <caption>Название таблицы</caption>
+                        <thead>
+                            <tr bgcolor="#e0e0e0">
+                                <th>Заголовок 1</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Данные</td>
+                            </tr>
+                        </tbody>
+                    </table> 
+                    -->
 
-</BODY>
-</HTML>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <table width="100%" bgcolor="#333333" cellpadding="15" cellspacing="0" border="0">
+            <tr>
+                <td align="center">
+                    <p><font color="#ffffff">© Все права защищены. Микро-команда БГУ, 2026</font></p>
+                    <p><a href="sources.html"><font color="#81c784">Написать Администратору сайта</font></a></p>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
