@@ -1,0 +1,57 @@
+# ==========================================================================
+# .gitignore: Лабораторная работа №4 — Удивительная планета (БГУ)
+# Исключение системного мусора, кэша браузеров и настроек VS Code
+# ==========================================================================
+
+# Локальные настройки редактора VS Code конкретного студента
+.vscode/
+.history/
+*.code-workspace
+
+# Настройки других редакторов (на случай, если кто-то работает в WebStorm или Sublime)
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Локальный кэш браузеров, отчеты Lighthouse и DevTools
+.lighthouse*
+*.lighthouserc.json
+lighthouse-results/
+.chrome/
+Chromium/
+
+# Временные скрытые файлы Microsoft Word (возникают при чтении Planeta_text.doc)
+~$*.doc
+~$*.docx
+*.tmp
+
+# Системные файлы операционных систем (скрытые кэши папок)
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.supported
+
+# Локальные логи ошибок браузеров или системы контроля
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
