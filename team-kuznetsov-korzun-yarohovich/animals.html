@@ -65,9 +65,9 @@
                         <caption id="fastest-animal"><strong>Самые быстрые наземные животные</strong></caption>
                         <thead>
                             <tr>
-                                <th width="5%" align="left" style="font-weight: normal">№</th>
-                                <th width="45%" align="left" style="font-weight: normal">Название</th>
-                                <th width="50%" align="left" style="font-weight: normal">Результат</th>
+                                <th width="5%" align="left">№</th>
+                                <th width="45%" align="left">Название</th>
+                                <th width="50%" align="left">Результат</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -104,9 +104,9 @@
                         <caption id="slowest-animal"><strong>Самые медленные наземные животные</strong></caption>
                         <thead>
                             <tr>
-                                <th width="5%" align="left" style="font-weight: normal">№</th>
-                                <th width="45%" align="left" style="font-weight: normal">Название</th>
-                                <th width="50%" align="left" style="font-weight: normal">Результат</th>
+                                <th width="5%" align="left">№</th>
+                                <th width="45%" align="left">Название</th>
+                                <th width="50%" align="left">Результат</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -143,17 +143,16 @@
                         <caption id="jumpest-animal"><strong>Самые прыгучие наземные животные</strong></caption>
                         <thead>
                             <tr>
-                                <th width="5%" align="left" style="font-weight: normal">№</th>
-                                <th width="45%" align="left" style="font-weight: normal">Название</th>
-                                <th width="50%" align="left" style="font-weight: normal">Результат</th>
+                                <th></th>
+                                <th width="5%" align="left">№</th>
+                                <th width="45%" align="left">Название</th>
+                                <th width="50%" align="left">Результат</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <!-- Растягиваем ячейку на всю ширину таблицы (3 колонки), чтобы сохранить симметрию сетки -->
-                                <td colspan="3">Прыжок в длинну</td>
-                            </tr>
-                            <tr>
+                                <!-- rowspan="2", так как объединяем 2 строки прыжков в длину -->
+                                <td rowspan="2" align="center" valign="middle"><b>Прыжок в длину</b></td>
                                 <td>1</td>
                                 <td>Кенгуру</td>
                                 <td>13 м</td>
@@ -164,10 +163,8 @@
                                 <td>10 м</td>
                             </tr>
                             <tr>
-                                <!-- Растягиваем ячейку на всю ширину таблицы (3 колонки), чтобы сохранить симметрию сетки -->
-                                <td colspan="3">Прыжок в высоту</td>
-                            </tr>
-                            <tr>
+                                <!-- rowspan="3", так как объединяем 3 строки прыжков в высоту -->
+                                <td rowspan="3" align="center" valign="middle"><b>Прыжок в высоту</b></td>
                                 <td>1</td>
                                 <td>Дельфин</td>
                                 <td>6 м</td>
